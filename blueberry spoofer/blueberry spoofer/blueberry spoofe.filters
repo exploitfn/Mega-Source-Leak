@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f2e0f697-f1d9-438d-b154-c4a4d193922e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBSIDIUM SDK">
+      <UniqueIdentifier>{e5d3ce60-f490-4609-b727-0aa43c46fc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{781860cf-baa6-4147-a84f-64142f0851e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{918b9154-aa2e-49b7-a8e1-6445e7f8d5fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="other.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium_Sdk\Obsidium Sdk\obsidium.h">
+      <Filter>OBSIDIUM SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium_Sdk\Obsidium Sdk\obsidium64.h">
+      <Filter>OBSIDIUM SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium_Sdk\Obsidium Sdk\keygen64.h">
+      <Filter>OBSIDIUM SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="color.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="custom.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Downloads\favicon (3).ico">
+      <Filter>other</Filter>
+    </Image>
+    <Image Include="..\..\..\favicon (1).ico">
+      <Filter>other</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\favicon (2).ico">
+      <Filter>other</Filter>
+    </Image>
+    <Image Include="..\..\..\logplaet.png">
+      <Filter>other</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>src</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>src</Filter>
+    </Library>
+    <Library Include="Obsidium_Sdk\Obsidium Sdk\obsidium64.lib">
+      <Filter>OBSIDIUM SDK</Filter>
+    </Library>
+    <Library Include="Obsidium_Sdk\Obsidium Sdk\obsidium64.a">
+      <Filter>OBSIDIUM SDK</Filter>
+    </Library>
+    <Library Include="Obsidium_Sdk\Obsidium Sdk\keygen64.lib">
+      <Filter>OBSIDIUM SDK</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obsidium_Sdk\Obsidium Sdk\obsidium64.def">
+      <Filter>OBSIDIUM SDK</Filter>
+    </None>
+    <None Include="Obsidium_Sdk\Obsidium Sdk\obsidium64.dll">
+      <Filter>OBSIDIUM SDK</Filter>
+    </None>
+    <None Include="Obsidium_Sdk\Obsidium Sdk\keygen64.dll">
+      <Filter>OBSIDIUM SDK</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Obsidium_Sdk\Obsidium Sdk\obsidiumlib.obj">
+      <Filter>OBSIDIUM SDK</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlanetFN Free Perm Unban.rc">
+      <Filter>other</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
