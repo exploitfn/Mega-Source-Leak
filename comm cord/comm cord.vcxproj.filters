@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{246f6484-2b16-42f3-b006-272a8ad23fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC">
+      <UniqueIdentifier>{2d973643-7546-4a65-bc5c-050c8a4bab80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obsidium SDK">
+      <UniqueIdentifier>{d6e6de9b-b94c-4b91-b680-031fb50a02a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kdmapper">
+      <UniqueIdentifier>{bb104210-623b-46e4-af78-cf17d4cc40f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mac Address Spoofer">
+      <UniqueIdentifier>{f2c018ff-6729-478d-af27-96433c74b664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bytes">
+      <UniqueIdentifier>{c4fc047a-3d4a-4c00-a799-17a9decb316a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="comm cord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\intel_driver.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\kdmapper.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\portable_executable.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\service.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\utils.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="discord rpc\SourceFiles\connection_win.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="discord rpc\SourceFiles\discord_register_win.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="discord rpc\SourceFiles\discord_rpc.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="discord rpc\SourceFiles\rpc_connection.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="discord rpc\SourceFiles\serialization.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="discord rpc\dsc.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="files\protection.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="files\lazy.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="files\enc.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="files\xor.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="files\include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\intel_driver.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\intel_driver_resource.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\kdmapper.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\nt.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\portable_executable.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\service.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\utils.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium SDK\keygen64.h">
+      <Filter>Obsidium SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium SDK\obsidium.h">
+      <Filter>Obsidium SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium SDK\obsidium64.h">
+      <Filter>Obsidium SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="discord rpc\SourceFiles\backoff.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="discord rpc\SourceFiles\connection.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="discord rpc\SourceFiles\msg_queue.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="discord rpc\SourceFiles\rpc_connection.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="discord rpc\SourceFiles\serialization.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="discord rpc\dsc.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="discord rpc\Includes\discord_register.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="discord rpc\Includes\discord_rpc.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Mac Addy Spoofer\MAC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mac Addy Spoofer\MAC.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="files\driver.h">
+      <Filter>bytes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kdmapper\kdmapper.rar">
+      <Filter>kdmapper</Filter>
+    </None>
+    <None Include="kdmapper\kdmapper.vcxproj">
+      <Filter>kdmapper</Filter>
+    </None>
+    <None Include="kdmapper\kdmapper.vcxproj.filters">
+      <Filter>kdmapper</Filter>
+    </None>
+    <None Include="kdmapper\README.md">
+      <Filter>kdmapper</Filter>
+    </None>
+    <None Include="Obsidium SDK\keygen64.dll">
+      <Filter>Obsidium SDK</Filter>
+    </None>
+    <None Include="Obsidium SDK\obsidium64.def">
+      <Filter>Obsidium SDK</Filter>
+    </None>
+    <None Include="Obsidium SDK\obsidium64.dll">
+      <Filter>Obsidium SDK</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Obsidium SDK\keygen64.lib">
+      <Filter>Obsidium SDK</Filter>
+    </Library>
+    <Library Include="Obsidium SDK\obsidium64.a">
+      <Filter>Obsidium SDK</Filter>
+    </Library>
+    <Library Include="Obsidium SDK\obsidium64.lib">
+      <Filter>Obsidium SDK</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Obsidium SDK\obsidiumlib.obj">
+      <Filter>Obsidium SDK</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="discord rpc\SourceFiles\CMakeLists.txt">
+      <Filter>Discord RPC</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
